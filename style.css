@@ -44,6 +44,10 @@ body {
     justify-content: space-between;
 }
 
+.text-bg-dark {
+    background-color: rgba(49, 95, 115, 0.7) !important;
+}
+
 .oc-body {
     display: flex;
     flex-direction: column;
@@ -137,4 +141,17 @@ body {
 .manual:hover,
 .playNow:hover {
     opacity: 0.5;
+}
+
+.dropdown-menu {
+    --bs-dropdown-color: #80a7c0;
+    --bs-dropdown-border-color: #80a7c0;
+    --bs-dropdown-border-radius: none;
+    --bs-dropdown-link-color: none;
+}
+
+.carousel-container {
+    display: flex;
+    height: auto;
+    width: 200px;
 }
